@@ -30,6 +30,10 @@ public class UserWebService {
 	@Autowired
 	private SpendTypeService spendTypeService;
 	
+	@GetMapping("")
+	public String getAllUser() {
+		return "Fuck you";
+	}
 	@GetMapping("/users")
 	public List<UserEntity> getAllUsers() {
 		return userService.getAllUsers();
