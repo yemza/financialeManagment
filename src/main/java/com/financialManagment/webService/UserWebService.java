@@ -30,7 +30,7 @@ public class UserWebService {
 	@Autowired
 	private SpendTypeService spendTypeService;
 	
-	@GetMapping("")
+    @RequestMapping("")
 	public String getAllUser() {
 		return "Fuck you";
 	}
